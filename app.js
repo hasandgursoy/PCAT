@@ -5,7 +5,7 @@ const ejs = require('ejs');
 
 // TEMPLATE ENGINE
 // Express'e diyoruz ki view engine olarak ejs kullanıcaz.
-app.set("view engine","ejs")
+app.set("view engine","ejs");
 
 const myLogger1 = (req, res, next) =>
 {
